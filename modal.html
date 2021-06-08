@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/popper.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <style type="text/css">
+  .modal-footer {   border-top: 0px; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-5 mx-lg-auto">
+        <div class="card mt-5">
+          <div class="card-header">
+            <h1 class="card-title text-center">Sign In</h1>
+          </div>
+
+
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="emailAddress">Email Address</label>
+                <input class="form-control" type="email" placeholder="EmailAddress" required autofocus id="emailAddress">
+              </div>
+
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input class="form-control" type="Password" placeholder="Password" required  id="Password">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleFormControlFile1">Example file input</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              </div>
+
+
+              <div class="container">
+                <a href="#" data-target="#pwdModal" data-toggle="modal">Forgotten password?</a>
+              </div>
+
+              <!-- ============= modal-->
+              <div id="pwdModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="text-center">What's My Password?</h3>
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
+                    </div>
+                    <div class="modal-body">
+                      <h6>If you have forgotten your password you can reset it here.</h6>
+                      <form>
+                        <div class="form-group row">
+                          <div class="col-lg-12 col-md-12">
+                            <label for="emailAddress">Email Address</label>
+                            <input class="form-control input-sm" type="email" placeholder="Email Address" id="emailAddress">
+                          </div>
+                        </div>
+                        <button class="btn btn-success btn-lg" type="submit">send my password</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-footer text-center">
+                <button class="btn btn-success btn-lg" type="submit">Create a new account</button>
+              </div>
+
+            </div><!-- ====card body -->
+          </form>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+
+</body>
+</html>

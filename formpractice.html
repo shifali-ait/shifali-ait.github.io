@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/popper.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <style type="text/css">
+    .vertical-center {
+     display: flex;
+     align-items: center;
+     min-height: 50vh;
+     margin-left: auto;
+   }
+ </style>
+</head>
+<body>
+  <div class="container">
+  <form>
+  <!-- Email input -->
+  <div class="col-12 col-lg-4 col-md-6 mt-3 mb-2">
+    <input type="email" id="form1Example1" class="form-control" />
+    <label class="form-label" for="form1Example1">Email address</label>
+  </div>
+
+  <!-- Password input -->
+  <div class="col-12 col-lg-4 col-md-6 mt-3 mb-2">
+    <input type="password" id="form1Example2" class="form-control" />
+    <label class="form-label" for="form1Example2">Password</label>
+  </div>
+
+  <!-- 2 column grid layout for inline styling -->
+  <div class="col-12 col-lg-4 col-md-6 mt-3 mb-2">
+    <div class="col d-flex justify-content-center">
+      <!-- Checkbox -->
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="form1Example3"
+          checked
+        />
+        <label class="form-check-label" for="form1Example3"> Remember me </label>
+      </div>
+    </div>
+
+    <div class="col">
+      <!-- Simple link -->
+      <a href="#!">Forgot password?</a>
+    </div>
+  </div>
+
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+</form>
+</div>
+  </body>
+  </html>
