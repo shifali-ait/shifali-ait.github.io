@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Places</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/popper.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  <style type="text/css">
+  .rowset{
+    padding-top: 30px;
+  }
+
+  .con{
+    margin-top: 80px;
+  }
+
+  body{
+    background-image:url('./Udaipur.jpg');
+    background-size: cover ;
+
+  }
+</style>
+
+</head>
+<body>
+  <div class="container con">
+    <div class="row rowset">
+      <div class="col-lg-3">
+        <a data-fancybox="gallery" href="safari.jpg">
+          <img src="safari.jpg" class="img-fluid custom-image">
+        </a>
+      </div>
+
+      <div class="col-lg-3">
+        <a data-fancybox="gallery" href="safari1.jpg">
+          <img src="safari1.jpg" class="img-fluid custom-image">
+        </a>
+      </div>
+
+      <div class="col-lg-3">
+        <a data-fancybox="gallery" href="safari2.jpg">
+          <img src="safari2.jpg" class="img-fluid custom-image">
+        </a>
+      </div>
+
+
+      <div class="col-lg-3">
+        <a data-fancybox="gallery" href="safari3.jpg">
+          <img src="safari3.jpg" class="img-fluid custom-image">
+        </a>
+      </div>
+      
+    </div>
+  </div>
+  <script type="text/javascript">
+   $('[data-fancybox="gallery"]').fancybox({
+
+    buttons: [
+    "zoom",
+    "share",
+    "slideShow",
+    "fullScreen",
+    "download",
+    "thumbs",
+    "close"
+    ],
+    animationEffect: "zoom-in-out" ,
+  // Options will go here
+});
+</script>
+</body>
+</html>
