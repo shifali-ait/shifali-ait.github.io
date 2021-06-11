@@ -3,9 +3,12 @@
 	width: 100%  !important;
 	margin-top: 50px;
 }
-.hight-card-img {
-	height: 140px !important;
-}
 .mt-20-px {
 	margin-top: 20px !important;
+}
+
+@media screen and (min-width: 992px) {
+	.hight-card-img {
+		height: 140px !important;
+	}
 }
