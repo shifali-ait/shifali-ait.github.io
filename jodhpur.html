@@ -1,215 +1,281 @@
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <title>Udaipur</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-      <link rel="stylesheet" type="text/css" href="css/custom.css">
-      <script type="text/javascript" src="js/jquery.js"></script>
-      <script type="text/javascript" src="js/popper.js"></script>
-      <script type="text/javascript" src="js/bootstrap.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Udaipur</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/popper.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-      <style>
+  <style>
 
-      .carousel-inner img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        height: 400px !important;
-        width: 100%  !important;
-      }
+  .carousel-inner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 400px !important;
+    width: 100%  !important;
+  }
 
-    </style>
+</style>
 
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Logo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="place.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="row mt-4">
-        <div class="col-lg-7">
-          <div class="text-center">
-            <h1 class="display-4">Jodhpur</h1>
-            <p>(The Blue City)</p>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="place.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cities
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Jaipur</a>
+            <a class="dropdown-item" href="#">Jaisalmer</a>
+            <a class="dropdown-item" href="#">Ajmer</a>
+            <a class="dropdown-item" href="#">Bikaner</a>
+            <a class="dropdown-item" href="#">Kota</a>
+            <a class="dropdown-item" href="#">Bhilwara</a>
+            <a class="dropdown-item" href="#">Churu</a>
+            <a class="dropdown-item" href="#">Jhunjhunu</a>
           </div>
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="jodhpur.jpg" alt="First slide" class="img-fluid custom-image">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="J1.jpg" alt="Second slide" class="img-fluid custom-image">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="j2.jpg" alt="Third slide" class="img-fluid custom-image">
-              </div>
+        </li>
 
-              <div class="carousel-item">
-                <img class="d-block w-100" src="j3.jpg" alt="Third slide" class="img-fluid custom-image">
-              </div>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        
 
+        
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-lg-7">
+        <div class="text-center">
+          <h1 class="display-4">Jodhpur</h1>
+          <p>(The Blue City)</p>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="jodhpur.jpg" alt="First slide" class="img-fluid custom-image">
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-          
-          <div class="text-justify mt-4">
-
-            <p>
-              Jodhpur, the second largest city in Rajasthan is popularly known as the Blue City. The name is clearly befitting as most of the architecture – forts, palaces, temples, havelis and even houses are built in vivid shades of blue. The strapping forts that tower this magnificent city sum up to a spectacle you would not want to miss. The mammoth, imposing fortress of Mehrangarh has a landscape dominating a rocky ridge with the eight gates leading out of the fortress. The new city is located outside the structure. Jodhpur is also known for the rare breed of horses known as Marwari or Malani, which are only found here.
-            </p>
-            <p>Jodhpur marks its origin back to the year of 1459 AD. The history of this prosperous city revolves around the Rathore clan. Rao Jodha, the chief of Rathore Clan is credited with the origin of Jodhpur in India. The city is known to be built in place of the ancient capital, Mandore of the state of Manwar. Hence, the people of Jodhpur and surrounding areas are commonly known as Marwaris. Also, it is believed that the relics of Mandore can still be witnessed in the Mandore Gardens.
-            </p>
-          </div>
-        </div> 
-
-
-        <div class="col-lg-5">
-          <h3 class="mt-3 mb-3">View more nearby places</h3>
-
-          <div class="card rounded-0 shadow mb-3">
-            <div class="row no-gutters">
-              <div class="col-lg-5">
-                <img src="Chittorgarh.jpg" alt="Chittorgarh" class="img-fluid hight-card-img">
-              </div>
-              <div class="col-lg-7">
-                <div class="card-body">
-                  <h4>Chittorgarh Fort</h4>
-                  <h6>Rajasthan</h6>
-                </div>
-              </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="J1.jpg" alt="Second slide" class="img-fluid custom-image">
             </div>
-          </div>
-
-          <div class="card rounded-0 shadow mb-3">
-            <div class="row no-gutters">
-              <div class="col-lg-5">
-                <img src="u3.jpg" alt="khumbhalgarh" class="img-fluid hight-card-img">
-              </div>
-              <div class="col-lg-7">
-                <div class="card-body">
-                  <h4>Udaipur Fort</h4>
-                  <h6>Rajasthan</h6>
-                </div>
-              </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="j2.jpg" alt="Third slide" class="img-fluid custom-image">
             </div>
-          </div>
 
-          <div class="card rounded-0 shadow mb-3">
-            <div class="row no-gutters">
-              <div class="col-lg-5">
-                <img src="j3.jpg" alt="khumbhalgarh" class="img-fluid hight-card-img">
-              </div>
-              <div class="col-lg-7">
-                <div class="card-body">
-                  <h4> Jodhpur Fort</h4>
-                  <h6>Rajasthan</h6>
-                </div>
-              </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="j3.jpg" alt="Third slide" class="img-fluid custom-image">
             </div>
-          </div>
 
-          <div class="card rounded-0 shadow mb-3">
-            <div class="row no-gutters">
-              <div class="col-lg-5">
-                <img src="u3.jpg" alt="khumbhalgarh" class="img-fluid hight-card-img">
-              </div>
-              <div class="col-lg-7">
-                <div class="card-body">
-                  <h4>Kumbhalgarh Fort</h4>
-                  <h6>Rajasthan</h6>
-                </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <div class="text-justify mt-4">
+
+          <p>
+            Jodhpur, the second largest city in Rajasthan is popularly known as the Blue City. The name is clearly befitting as most of the architecture – forts, palaces, temples, havelis and even houses are built in vivid shades of blue. The strapping forts that tower this magnificent city sum up to a spectacle you would not want to miss. The mammoth, imposing fortress of Mehrangarh has a landscape dominating a rocky ridge with the eight gates leading out of the fortress. The new city is located outside the structure. Jodhpur is also known for the rare breed of horses known as Marwari or Malani, which are only found here.
+          </p>
+          <p>Jodhpur marks its origin back to the year of 1459 AD. The history of this prosperous city revolves around the Rathore clan. Rao Jodha, the chief of Rathore Clan is credited with the origin of Jodhpur in India. The city is known to be built in place of the ancient capital, Mandore of the state of Manwar. Hence, the people of Jodhpur and surrounding areas are commonly known as Marwaris. Also, it is believed that the relics of Mandore can still be witnessed in the Mandore Gardens.
+          </p>
+        </div>
+      </div> 
+
+
+      <div class="col-lg-5">
+        <h3 class="mt-3 mb-3">View more nearby places</h3>
+
+        <div class="card rounded-0 shadow mb-3">
+          <div class="row no-gutters">
+            <div class="col-lg-5">
+              <img src="Chittorgarh.jpg" alt="Chittorgarh" class="img-fluid hight-card-img">
+            </div>
+            <div class="col-lg-7">
+              <div class="card-body">
+                <h4>Chittorgarh Fort</h4>
+                <h6>Rajasthan</h6>
               </div>
             </div>
           </div>
         </div>
-      </div><!-- ==row -->
-    </div><!-- ==container -->
 
-    <div class="container">
-      <h4 class="mt-3 mb-3">Places to Visits in Jodhpur</h4>
-      Jodhpur flocks with tourist year after year, thanks to the breathtaking sites the location has to offer. Some of the sites include Mehrangarh Fort, Ghanta Ghar and Clock Tower. Moreover, Jodhpur is rich in history, sharing centuries of art and architecture
-
-      <h3 class="mt-2"> The Mehrangarh Fort</h3>
-      <p>The Mehrangarh Fort known as the largest and most famous forts in India, The Mehrangarh Fort is an impressive description of preserved heritage. Presently serving as a lucrative museum, it blossoms with 15,000 items right from Maharaja Gaj Singh II's collection. There are cultural performances that happen daily inside the fort where you can enjoy music, folk art and many more.</p>
-      <div class="row">
-        <div class="col-xl-3 col-md-6 mt-0">
-          <img src="pj1.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
+        <div class="card rounded-0 shadow mb-3">
+          <div class="row no-gutters">
+            <div class="col-lg-5">
+              <img src="u3.jpg" alt="khumbhalgarh" class="img-fluid hight-card-img">
+            </div>
+            <div class="col-lg-7">
+              <div class="card-body">
+                <h4>Udaipur Fort</h4>
+                <h6>Rajasthan</h6>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="col-xl-3 col-md-6 mt-0">
-          <img src="pj2.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
-        </div>
-        <div class="col-xl-3 col-md-6 mt-0">
-          <img src="pj3.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
-        </div>
-
-        <div class="col-xl-3 col-md-6 mt-0">
-          <img src="pj4.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
-        </div>
-      </div>
-
-
-      <h3 class="mt-2"> The Jaswant Thada</h3>
-      <p>Built-in 1899, the Jaswant Thada is an intricately crafted cenotaph created in the memory of Maharaja Jaswant Singh. The structure shines with white marble, lattice screens and portraits of Rathore rulers. Here, you will experience a peaceful environment while enjoying the gleaming view of the city.</p>
-      <div class="row">
-        <div class="col-xl-3 col-md-6 mt-0">
-          <img src="pj5.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
+        <div class="card rounded-0 shadow mb-3">
+          <div class="row no-gutters">
+            <div class="col-lg-5">
+              <img src="j3.jpg" alt="khumbhalgarh" class="img-fluid hight-card-img">
+            </div>
+            <div class="col-lg-7">
+              <div class="card-body">
+                <h4> Jodhpur Fort</h4>
+                <h6>Rajasthan</h6>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="col-xl-3 col-md-6 mt-0">
-          <img src="pj6.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
-        </div>
-        <div class="col-xl-3 col-md-6 mt-0">
-          <img src="pj7.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
-        </div>
-
-        <div class="col-xl-3 col-md-6 mt-0">
-          <img src="pj8.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
+        <div class="card rounded-0 shadow mb-3">
+          <div class="row no-gutters">
+            <div class="col-lg-5">
+              <img src="u3.jpg" alt="khumbhalgarh" class="img-fluid hight-card-img">
+            </div>
+            <div class="col-lg-7">
+              <div class="card-body">
+                <h4>Kumbhalgarh Fort</h4>
+                <h6>Rajasthan</h6>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div><!-- ==row -->
+  </div><!-- ==container -->
 
-      <h3 class="mt-2"> The streets of the Blue city</h3>
-      <p>If you are looking for beautiful backgrounds to take outstanding photographs, then visit the Streets of the blue city. Known as Navchokiya, the location is a lovely site for tourists. Here, you can spend your time strolling along the streets, and you may also choose to get a guide to help you find your way through the chaotic streets.</p>
-      <div class="row">
-        <div class="col-xl-3 col-md-6 mt-0">
-          <img src="pj9.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
-        </div>
+  <div class="container">
+    <h4 class="mt-3 mb-3">Places to Visits in Jodhpur</h4>
+    Jodhpur flocks with tourist year after year, thanks to the breathtaking sites the location has to offer. Some of the sites include Mehrangarh Fort, Ghanta Ghar and Clock Tower. Moreover, Jodhpur is rich in history, sharing centuries of art and architecture
 
-        <div class="col-xl-3 col-md-6 mt-0">
-          <img src="pj10.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
-        </div>
-        <div class="col-xl-3 col-md-6 mt-0">
-          <img src="pj11.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
-        </div>
-
-        <div class="col-xl-3 col-md-6 mt-0 mb-3">
-          <img src="pj12.jpg" alt="Jodhpur" class="img-fluid custom-image mt-20-px">
-        </div>
+    <h3 class="mt-2"> The Mehrangarh Fort</h3>
+    <p>The Mehrangarh Fort known as the largest and most famous forts in India, The Mehrangarh Fort is an impressive description of preserved heritage. Presently serving as a lucrative museum, it blossoms with 15,000 items right from Maharaja Gaj Singh II's collection. There are cultural performances that happen daily inside the fort where you can enjoy music, folk art and many more.</p>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 mt-0">
+        <a data-fancybox="gallery" href="pj1.jpg">
+          <img src="pj1.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
       </div>
-    </div>  <!-- Container -->
 
-  </body>
-  </html>
+      <div class="col-xl-3 col-md-6 mt-0">
+        <a data-fancybox="gallery" href="pj2.jpg">
+          <img src="pj2.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
+      </div>
+      <div class="col-xl-3 col-md-6 mt-0">
+        <a data-fancybox="gallery" href="pj3.jpg">
+          <img src="pj3.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
+      </div>
+
+      <div class="col-xl-3 col-md-6 mt-0">
+        <a data-fancybox="gallery" href="pj4.jpg">
+          <img src="pj4.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
+      </div>
+    </div>
+
+
+    <h3 class="mt-2"> The Jaswant Thada</h3>
+    <p>Built-in 1899, the Jaswant Thada is an intricately crafted cenotaph created in the memory of Maharaja Jaswant Singh. The structure shines with white marble, lattice screens and portraits of Rathore rulers. Here, you will experience a peaceful environment while enjoying the gleaming view of the city.</p>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 mt-0">
+        <a data-fancybox="gallery" href="pj5.jpg">
+          <img src="pj5.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
+      </div>
+
+      <div class="col-xl-3 col-md-6 mt-0">
+        <a data-fancybox="gallery" href="pj6.jpg">
+          <img src="pj6.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
+      </div>
+      <div class="col-xl-3 col-md-6 mt-0">
+        <a data-fancybox="gallery" href="pj7.jpg">
+          <img src="pj7.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
+      </div>
+
+      <div class="col-xl-3 col-md-6 mt-0">
+        <a data-fancybox="gallery" href="pj8.jpg">
+          <img src="pj8.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
+      </div>
+    </div>
+
+    <h3 class="mt-2"> The streets of the Blue city</h3>
+    <p>If you are looking for beautiful backgrounds to take outstanding photographs, then visit the Streets of the blue city. Known as Navchokiya, the location is a lovely site for tourists. Here, you can spend your time strolling along the streets, and you may also choose to get a guide to help you find your way through the chaotic streets.</p>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 mt-0">
+        <a data-fancybox="gallery" href="pj9.jpg">
+          <img src="pj9.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
+      </div>
+
+      <div class="col-xl-3 col-md-6 mt-0">
+        <a data-fancybox="gallery" href="pj10.jpg">
+          <img src="pj10.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
+      </div>
+      <div class="col-xl-3 col-md-6 mt-0">
+        <a data-fancybox="gallery" href="pj11.jpg">
+          <img src="pj11.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
+      </div>
+
+      <div class="col-xl-3 col-md-6 mt-0 mb-3">
+        <a data-fancybox="gallery" href="pj12.jpg">
+          <img src="pj12.jpg" class="img-fluid custom-image mt-20-px">
+        </a>
+      </div>
+    </div>
+  </div>  <!-- Container -->
+  <script type="text/javascript">
+   $('[data-fancybox="gallery"]').fancybox({
+
+    buttons: [
+    "zoom",
+    "share",
+    "slideShow",
+    "fullScreen",
+    "download",
+    "thumbs",
+    "close"
+    ],
+    animationEffect: "zoom-in-out",
+  // Options will go here
+});
+</script>
+</body>
+</html>

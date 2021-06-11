@@ -9,6 +9,9 @@
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/popper.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 
   <style>
@@ -23,7 +26,6 @@
   }
 
 </style>
-
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,6 +41,28 @@
         <li class="nav-item">
           <a class="nav-link" href="about.html">About Us</a>
         </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cities
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Jaipur</a>
+            <a class="dropdown-item" href="#">Jaisalmer</a>
+            <a class="dropdown-item" href="#">Ajmer</a>
+            <a class="dropdown-item" href="#">Bikaner</a>
+            <a class="dropdown-item" href="#">Kota</a>
+            <a class="dropdown-item" href="#">Bhilwara</a>
+            <a class="dropdown-item" href="#">Churu</a>
+            <a class="dropdown-item" href="#">Jhunjhunu</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        
+
       </ul>
     </div>
   </nav>
@@ -167,112 +191,167 @@
     </p>
     <div class="row">
       <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu1.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu2.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu3.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu4.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu5.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu6.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu7.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu8.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-    </div>
-
-    <h3 class="mt-3"> Vintage Car Museum</h3>
-    <p>
-      A museum of vintage vehicles – is a must. Housed in the former Mewar State Motor Garage, the museum displays luxury vintage wheels like the 1934 Rolls-Royce Phantom II that was later converted into a pick-up truck used during royal hunts, another 1934 Rolls-Royce that was converted to transport the entire Mewar royal cricket team. You can also see Cadillacs, several Mercedes-Benzs, Buicks, a Ford Model A and many others. A high point of the museum is the royal Shell Petrol Pump that still works! here you can check all museums in Udaipur.
-    </p>
-
-    <div class="row">
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu9.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu10.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu11.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu12.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-    </div>
-
-    <h3 class="mt-3"> Maharana Pratap Memorial</h3>
-    <p>
-     Right at the top of the Moti Magri, overlooking the Fateh Sagar Lake is a lifelike statue of Udaipur’s most celebrated ruler, Maharana Pratap and his beloved horse Chetak. Visit this imposing memorial to the warrior king and his favorite mount who is believed to have saved his master’s life in the epic battle of Haldighati. A Japanese rock garden and the remnants of an old fort in Udaipur lie nearby and make for an interesting vignette.
-   </p>
-
-   <div class="row">
-    <div class="col-xl-3 col-md-6 mt-0">
-      <img src="pu13.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
+       <a data-fancybox="gallery" href="pu1.jpg">
+        <img src="pu1.jpg" class="img-fluid custom-image mt-20-px">
+      </a>
     </div>
 
     <div class="col-xl-3 col-md-6 mt-0">
-      <img src="pu14.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-    </div>
-
-    <div class="col-xl-3 col-md-6 mt-0">
-      <img src="pu15.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-    </div>
-
-    <div class="col-xl-3 col-md-6 mt-0">
-      <img src="pu16.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-    </div>
+     <a data-fancybox="gallery" href="pu2.jpg">
+      <img src="pu2.jpg" class="img-fluid custom-image mt-20-px">
+    </a>
   </div>
 
-  <h3 class="mt-3"> Saheliyon Ki Bari</h3>
-  <p>
-    Saheliyon Ki Bari or the Garden of the Maidens was built by Maharana Sangram Singh in the early years of the 18th century. This awe-inspiring development catered to the maids who would go with the Princess of Udaipur to her husband’s hearth (part of the dowry given by the Maharana). This place had pretty women dancing, singing and making merry and the beautiful marble elephants, fountains, a lotus pool and kiosks bear ample testimony to the richness of the time.
+  <div class="col-xl-3 col-md-6 mt-0">
+   <a data-fancybox="gallery" href="pu3.jpg">
+    <img src="pu3.jpg" class="img-fluid custom-image mt-20-px">
+  </a>      
+</div>
 
-    <div class="row">
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu17.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
+<div class="col-xl-3 col-md-6 mt-0">
+ <a data-fancybox="gallery" href="pu4.jpg">
+  <img src="pu4.jpg" class="img-fluid custom-image mt-20-px">
+</a>
+</div>
+</div>
 
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu18.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
+<div class="row">
+  <div class="col-xl-3 col-md-6 mt-0">
+   <a data-fancybox="gallery" href="pu5.jpg">
+    <img src="pu5.jpg" class="img-fluid custom-image mt-20-px">
+  </a>
+</div>
 
-      <div class="col-xl-3 col-md-6 mt-0">
-        <img src="pu19.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
+<div class="col-xl-3 col-md-6 mt-0">
+ <a data-fancybox="gallery" href="pu6.jpg">
+  <img src="pu6.jpg" class="img-fluid custom-image mt-20-px">
+</a>
+</div>
 
-      <div class="col-xl-3 col-md-6 mt-0 mb-3">
-        <img src="pu20.jpg" alt="Udaipur" class="img-fluid custom-image mt-20-px">
-      </div>
-    </div>
+<div class="col-xl-3 col-md-6 mt-0">
+ <a data-fancybox="gallery" href="pu7.jpg">
+  <img src="pu7.jpg" class="img-fluid custom-image mt-20-px">
+</a>
+</div>
+
+<div class="col-xl-3 col-md-6 mt-0">
+ <a data-fancybox="gallery" href="pu8.jpg">
+  <img src="pu8.jpg" class="img-fluid custom-image mt-20-px">
+</a>
+</div>
+</div>
+
+<h3 class="mt-3"> Vintage Car Museum</h3>
+<p>
+  A museum of vintage vehicles – is a must. Housed in the former Mewar State Motor Garage, the museum displays luxury vintage wheels like the 1934 Rolls-Royce Phantom II that was later converted into a pick-up truck used during royal hunts, another 1934 Rolls-Royce that was converted to transport the entire Mewar royal cricket team. You can also see Cadillacs, several Mercedes-Benzs, Buicks, a Ford Model A and many others. A high point of the museum is the royal Shell Petrol Pump that still works! here you can check all museums in Udaipur.
+</p>
+
+<div class="row">
+  <div class="col-xl-3 col-md-6 mt-0">
+   <a data-fancybox="gallery" href="pu9.jpg">
+    <img src="pu9.jpg" class="img-fluid custom-image mt-20-px">
+  </a>
+</div>
+
+<div class="col-xl-3 col-md-6 mt-0">
+ <a data-fancybox="gallery" href="pu10.jpg">
+  <img src="pu10.jpg" class="img-fluid custom-image mt-20-px">
+</a>
+</div>
+
+<div class="col-xl-3 col-md-6 mt-0">
+ <a data-fancybox="gallery" href="pu11.jpg">
+  <img src="pu11.jpg" class="img-fluid custom-image mt-20-px">
+</a>
+</div>
+
+<div class="col-xl-3 col-md-6 mt-0">
+ <a data-fancybox="gallery" href="pu12.jpg">
+  <img src="pu12.jpg" class="img-fluid custom-image mt-20-px">
+</a>
+</div>
+</div>
+
+<h3 class="mt-3"> Maharana Pratap Memorial</h3>
+<p>
+ Right at the top of the Moti Magri, overlooking the Fateh Sagar Lake is a lifelike statue of Udaipur’s most celebrated ruler, Maharana Pratap and his beloved horse Chetak. Visit this imposing memorial to the warrior king and his favorite mount who is believed to have saved his master’s life in the epic battle of Haldighati. A Japanese rock garden and the remnants of an old fort in Udaipur lie nearby and make for an interesting vignette.
+</p>
+
+<div class="row">
+  <div class="col-xl-3 col-md-6 mt-0">
+   <a data-fancybox="gallery" href="pu13.jpg">
+    <img src="pu13.jpg" class="img-fluid custom-image mt-20-px">
+   </a>
+  </div>
+
+<div class="col-xl-3 col-md-6 mt-0">
+  <a data-fancybox="gallery" href="pu14.jpg">
+    <img src="pu14.jpg" class="img-fluid custom-image mt-20-px">
+  </a>
+</div>
+
+<div class="col-xl-3 col-md-6 mt-0">
+ <a data-fancybox="gallery" href="pu15.jpg">
+  <img src="pu15.jpg" class="img-fluid custom-image mt-20-px">
+</a>
+</div>
+
+<div class="col-xl-3 col-md-6 mt-0">
+ <a data-fancybox="gallery" href="pu16.jpg">
+  <img src="pu16.jpg" class="img-fluid custom-image mt-20-px">
+</a>
+</div>
+</div>
+
+<h3 class="mt-3"> Saheliyon Ki Bari</h3>
+<p>
+  Saheliyon Ki Bari or the Garden of the Maidens was built by Maharana Sangram Singh in the early years of the 18th century. This awe-inspiring development catered to the maids who would go with the Princess of Udaipur to her husband’s hearth (part of the dowry given by the Maharana). This place had pretty women dancing, singing and making merry and the beautiful marble elephants, fountains, a lotus pool and kiosks bear ample testimony to the richness of the time.
+
+  <div class="row">
+    <div class="col-xl-3 col-md-6 mt-0">
+     <a data-fancybox="gallery" href="pu17.jpg">
+      <img src="pu17.jpg" class="img-fluid custom-image mt-20-px">
+    </a>
+  </div>
+
+  <div class="col-xl-3 col-md-6 mt-0">
+   <a data-fancybox="gallery" href="pu18.jpg">
+    <img src="pu18.jpg" class="img-fluid custom-image mt-20-px">
+  </a>
+</div>
+
+<div class="col-xl-3 col-md-6 mt-0">
+ <a data-fancybox="gallery" href="pu19.jpg">
+  <img src="pu19.jpg" class="img-fluid custom-image mt-20-px">
+</a>
+</div>
+
+<div class="col-xl-3 col-md-6 mt-0 mb-3">
+ <a data-fancybox="gallery" href="pu20.jpg">
+  <img src="pu20.jpg" class="img-fluid custom-image mt-20-px">
+</a>
+</div>
+</div>
 
 
-  </div> <!-- //container -->
+</div> <!-- //container -->
 
+<script type="text/javascript">
+ $('[data-fancybox="gallery"]').fancybox({
 
+  buttons: [
+  "zoom",
+  "share",
+  "slideShow",
+  "fullScreen",
+  "download",
+  "thumbs",
+  "close"
+  ],
+  animationEffect: "zoom-in-out",
+  // Options will go here
+});
+</script>
 
 </body>
 </html>
